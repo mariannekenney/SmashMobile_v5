@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05432AFA20C86EDF0005A87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432AF920C86EDF0005A87E /* AppDelegate.swift */; };
-		05432AFC20C86EDF0005A87E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432AFB20C86EDF0005A87E /* ViewController.swift */; };
-		05432AFF20C86EDF0005A87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05432AFD20C86EDF0005A87E /* Main.storyboard */; };
+		052E3F2320C9B3120025AE3B /* HM_InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E3F2220C9B3120025AE3B /* HM_InboxTableViewController.swift */; };
 		05432B0120C86EE00005A87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05432B0020C86EE00005A87E /* Assets.xcassets */; };
-		05432B0420C86EE00005A87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05432B0220C86EE00005A87E /* LaunchScreen.storyboard */; };
 		05432B0F20C86EE00005A87E /* SmashMobile_v5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B0E20C86EE00005A87E /* SmashMobile_v5Tests.swift */; };
 		05432B1A20C86EE00005A87E /* SmashMobile_v5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B1920C86EE00005A87E /* SmashMobile_v5UITests.swift */; };
+		05432B3220C8707E0005A87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B2C20C8707D0005A87E /* AppDelegate.swift */; };
+		05432B3320C8707E0005A87E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B2D20C8707E0005A87E /* LogInViewController.swift */; };
+		05432B3420C8707E0005A87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05432B2E20C8707E0005A87E /* Main.storyboard */; };
+		05432B3520C8707E0005A87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05432B3020C8707E0005A87E /* LaunchScreen.storyboard */; };
+		05432B3920C870AB0005A87E /* StyleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B3620C870AB0005A87E /* StyleExtensions.swift */; };
+		05432B3A20C870AB0005A87E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05432B3720C870AB0005A87E /* Info.plist */; };
+		05432B3B20C870AB0005A87E /* StructObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B3820C870AB0005A87E /* StructObjects.swift */; };
+		05432B3D20C871FD0005A87E /* HiringManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05432B3C20C871FD0005A87E /* HiringManager.storyboard */; };
+		05432B3F20C8720A0005A87E /* Recruiter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05432B3E20C8720A0005A87E /* Recruiter.storyboard */; };
+		05432B4320C8803F0005A87E /* RC_ListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B4220C8803F0005A87E /* RC_ListsTableViewController.swift */; };
+		05432B4520C880640005A87E /* RC_StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B4420C880640005A87E /* RC_StatusTableViewController.swift */; };
+		05432B4720C8806F0005A87E /* RC_SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B4620C8806F0005A87E /* RC_SettingsTableViewController.swift */; };
+		05432B4920C8808D0005A87E /* RC_IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B4820C8808D0005A87E /* RC_IndividualViewController.swift */; };
+		05432B4C20C880CF0005A87E /* RC_CandidatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05432B4B20C880CF0005A87E /* RC_CandidatesTableViewController.swift */; };
+		05432B5920C883770005A87E /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5020C883710005A87E /* SourceSansPro-Black.ttf */; };
+		05432B5A20C883770005A87E /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5120C883710005A87E /* SourceSansPro-BlackItalic.ttf */; };
+		05432B5B20C883770005A87E /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5220C883710005A87E /* SourceSansPro-Bold.ttf */; };
+		05432B5C20C883770005A87E /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B4E20C8836E0005A87E /* SourceSansPro-BoldItalic.ttf */; };
+		05432B5D20C883770005A87E /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B4F20C8836F0005A87E /* SourceSansPro-ExtraLight.ttf */; };
+		05432B5E20C883770005A87E /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5720C883710005A87E /* SourceSansPro-ExtraLightItalic.ttf */; };
+		05432B5F20C883770005A87E /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5320C883710005A87E /* SourceSansPro-Italic.ttf */; };
+		05432B6020C883770005A87E /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5420C883710005A87E /* SourceSansPro-Light.ttf */; };
+		05432B6120C883770005A87E /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B4D20C8836D0005A87E /* SourceSansPro-LightItalic.ttf */; };
+		05432B6220C883770005A87E /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5520C883710005A87E /* SourceSansPro-Regular.ttf */; };
+		05432B6320C883770005A87E /* SourceSansPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5620C883710005A87E /* SourceSansPro-Semibold.ttf */; };
+		05432B6420C883770005A87E /* SourceSansPro-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05432B5820C883720005A87E /* SourceSansPro-SemiboldItalic.ttf */; };
+		057C034220C9913C00669B2B /* HM_ListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C034120C9913C00669B2B /* HM_ListsTableViewController.swift */; };
+		057C034420C9914C00669B2B /* HM_StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C034320C9914C00669B2B /* HM_StatusTableViewController.swift */; };
+		057C034620C9916F00669B2B /* HM_SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C034520C9916F00669B2B /* HM_SettingsTableViewController.swift */; };
+		057C034820C9917C00669B2B /* HM_CandidatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C034720C9917C00669B2B /* HM_CandidatesTableViewController.swift */; };
+		057C034A20C9918700669B2B /* HM_IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C034920C9918700669B2B /* HM_IndividualViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +62,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052E3F2220C9B3120025AE3B /* HM_InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_InboxTableViewController.swift; sourceTree = "<group>"; };
 		05432AF620C86EDF0005A87E /* SmashMobile_v5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashMobile_v5.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05432AF920C86EDF0005A87E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05432AFB20C86EDF0005A87E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05432AFE20C86EDF0005A87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05432B0020C86EE00005A87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05432B0320C86EE00005A87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		05432B0520C86EE00005A87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05432B0A20C86EE00005A87E /* SmashMobile_v5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashMobile_v5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05432B0E20C86EE00005A87E /* SmashMobile_v5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashMobile_v5Tests.swift; sourceTree = "<group>"; };
 		05432B1020C86EE00005A87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05432B1520C86EE00005A87E /* SmashMobile_v5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashMobile_v5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05432B1920C86EE00005A87E /* SmashMobile_v5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashMobile_v5UITests.swift; sourceTree = "<group>"; };
 		05432B1B20C86EE00005A87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05432B2C20C8707D0005A87E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../SmashMobile_v4/SmashMobile_v4/Both/AppDelegate.swift; sourceTree = "<group>"; };
+		05432B2D20C8707E0005A87E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Both/LogInViewController.swift; sourceTree = "<group>"; };
+		05432B2F20C8707E0005A87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../SmashMobile_v3/SmashMobile_v3/Both/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05432B3120C8707E0005A87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../SmashMobile_v3/SmashMobile_v3/Both/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05432B3620C870AB0005A87E /* StyleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyleExtensions.swift; path = ../../SmashMobile_v4/SmashMobile_v4/StyleExtensions.swift; sourceTree = "<group>"; };
+		05432B3720C870AB0005A87E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../SmashMobile_v4/SmashMobile_v4/Info.plist; sourceTree = "<group>"; };
+		05432B3820C870AB0005A87E /* StructObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StructObjects.swift; path = ../../SmashMobile_v4/SmashMobile_v4/StructObjects.swift; sourceTree = "<group>"; };
+		05432B3C20C871FD0005A87E /* HiringManager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HiringManager.storyboard; sourceTree = "<group>"; };
+		05432B3E20C8720A0005A87E /* Recruiter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recruiter.storyboard; sourceTree = "<group>"; };
+		05432B4220C8803F0005A87E /* RC_ListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_ListsTableViewController.swift; sourceTree = "<group>"; };
+		05432B4420C880640005A87E /* RC_StatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_StatusTableViewController.swift; sourceTree = "<group>"; };
+		05432B4620C8806F0005A87E /* RC_SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_SettingsTableViewController.swift; sourceTree = "<group>"; };
+		05432B4820C8808D0005A87E /* RC_IndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_IndividualViewController.swift; sourceTree = "<group>"; };
+		05432B4B20C880CF0005A87E /* RC_CandidatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_CandidatesTableViewController.swift; sourceTree = "<group>"; };
+		05432B4D20C8836D0005A87E /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-LightItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		05432B4E20C8836E0005A87E /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BoldItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		05432B4F20C8836F0005A87E /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLight.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		05432B5020C883710005A87E /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Black.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		05432B5120C883710005A87E /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BlackItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		05432B5220C883710005A87E /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Bold.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		05432B5320C883710005A87E /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Italic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		05432B5420C883710005A87E /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Light.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		05432B5520C883710005A87E /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Regular.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		05432B5620C883710005A87E /* SourceSansPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Semibold.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Semibold.ttf"; sourceTree = "<group>"; };
+		05432B5720C883710005A87E /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLightItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		05432B5820C883720005A87E /* SourceSansPro-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-SemiboldItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		057C034120C9913C00669B2B /* HM_ListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_ListsTableViewController.swift; sourceTree = "<group>"; };
+		057C034320C9914C00669B2B /* HM_StatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_StatusTableViewController.swift; sourceTree = "<group>"; };
+		057C034520C9916F00669B2B /* HM_SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_SettingsTableViewController.swift; sourceTree = "<group>"; };
+		057C034720C9917C00669B2B /* HM_CandidatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_CandidatesTableViewController.swift; sourceTree = "<group>"; };
+		057C034920C9918700669B2B /* HM_IndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_IndividualViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +152,14 @@
 		05432AF820C86EDF0005A87E /* SmashMobile_v5 */ = {
 			isa = PBXGroup;
 			children = (
-				05432AF920C86EDF0005A87E /* AppDelegate.swift */,
-				05432AFB20C86EDF0005A87E /* ViewController.swift */,
-				05432AFD20C86EDF0005A87E /* Main.storyboard */,
 				05432B0020C86EE00005A87E /* Assets.xcassets */,
-				05432B0220C86EE00005A87E /* LaunchScreen.storyboard */,
-				05432B0520C86EE00005A87E /* Info.plist */,
+				05432B3720C870AB0005A87E /* Info.plist */,
+				05432B3620C870AB0005A87E /* StyleExtensions.swift */,
+				05432B3820C870AB0005A87E /* StructObjects.swift */,
+				05432B2720C8703F0005A87E /* Both */,
+				05432B2920C870520005A87E /* Recruiters */,
+				05432B2820C870450005A87E /* HiringManagers */,
+				05432B2A20C8705C0005A87E /* Fonts */,
 			);
 			path = SmashMobile_v5;
 			sourceTree = "<group>";
@@ -123,6 +180,63 @@
 				05432B1B20C86EE00005A87E /* Info.plist */,
 			);
 			path = SmashMobile_v5UITests;
+			sourceTree = "<group>";
+		};
+		05432B2720C8703F0005A87E /* Both */ = {
+			isa = PBXGroup;
+			children = (
+				05432B2E20C8707E0005A87E /* Main.storyboard */,
+				05432B3020C8707E0005A87E /* LaunchScreen.storyboard */,
+				05432B2C20C8707D0005A87E /* AppDelegate.swift */,
+				05432B2D20C8707E0005A87E /* LogInViewController.swift */,
+			);
+			path = Both;
+			sourceTree = "<group>";
+		};
+		05432B2820C870450005A87E /* HiringManagers */ = {
+			isa = PBXGroup;
+			children = (
+				05432B3C20C871FD0005A87E /* HiringManager.storyboard */,
+				052E3F2220C9B3120025AE3B /* HM_InboxTableViewController.swift */,
+				057C034120C9913C00669B2B /* HM_ListsTableViewController.swift */,
+				057C034320C9914C00669B2B /* HM_StatusTableViewController.swift */,
+				057C034520C9916F00669B2B /* HM_SettingsTableViewController.swift */,
+				057C034720C9917C00669B2B /* HM_CandidatesTableViewController.swift */,
+				057C034920C9918700669B2B /* HM_IndividualViewController.swift */,
+			);
+			path = HiringManagers;
+			sourceTree = "<group>";
+		};
+		05432B2920C870520005A87E /* Recruiters */ = {
+			isa = PBXGroup;
+			children = (
+				05432B3E20C8720A0005A87E /* Recruiter.storyboard */,
+				05432B4220C8803F0005A87E /* RC_ListsTableViewController.swift */,
+				05432B4420C880640005A87E /* RC_StatusTableViewController.swift */,
+				05432B4620C8806F0005A87E /* RC_SettingsTableViewController.swift */,
+				05432B4B20C880CF0005A87E /* RC_CandidatesTableViewController.swift */,
+				05432B4820C8808D0005A87E /* RC_IndividualViewController.swift */,
+			);
+			path = Recruiters;
+			sourceTree = "<group>";
+		};
+		05432B2A20C8705C0005A87E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05432B5020C883710005A87E /* SourceSansPro-Black.ttf */,
+				05432B5120C883710005A87E /* SourceSansPro-BlackItalic.ttf */,
+				05432B5220C883710005A87E /* SourceSansPro-Bold.ttf */,
+				05432B4E20C8836E0005A87E /* SourceSansPro-BoldItalic.ttf */,
+				05432B4F20C8836F0005A87E /* SourceSansPro-ExtraLight.ttf */,
+				05432B5720C883710005A87E /* SourceSansPro-ExtraLightItalic.ttf */,
+				05432B5320C883710005A87E /* SourceSansPro-Italic.ttf */,
+				05432B5420C883710005A87E /* SourceSansPro-Light.ttf */,
+				05432B4D20C8836D0005A87E /* SourceSansPro-LightItalic.ttf */,
+				05432B5520C883710005A87E /* SourceSansPro-Regular.ttf */,
+				05432B5620C883710005A87E /* SourceSansPro-Semibold.ttf */,
+				05432B5820C883720005A87E /* SourceSansPro-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +307,7 @@
 				TargetAttributes = {
 					05432AF520C86EDF0005A87E = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					05432B0920C86EE00005A87E = {
 						CreatedOnToolsVersion = 9.4;
@@ -229,9 +344,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05432B0420C86EE00005A87E /* LaunchScreen.storyboard in Resources */,
+				05432B5A20C883770005A87E /* SourceSansPro-BlackItalic.ttf in Resources */,
+				05432B5C20C883770005A87E /* SourceSansPro-BoldItalic.ttf in Resources */,
+				05432B3D20C871FD0005A87E /* HiringManager.storyboard in Resources */,
+				05432B5B20C883770005A87E /* SourceSansPro-Bold.ttf in Resources */,
+				05432B3A20C870AB0005A87E /* Info.plist in Resources */,
+				05432B6120C883770005A87E /* SourceSansPro-LightItalic.ttf in Resources */,
+				05432B6320C883770005A87E /* SourceSansPro-Semibold.ttf in Resources */,
+				05432B5F20C883770005A87E /* SourceSansPro-Italic.ttf in Resources */,
+				05432B3F20C8720A0005A87E /* Recruiter.storyboard in Resources */,
+				05432B3520C8707E0005A87E /* LaunchScreen.storyboard in Resources */,
 				05432B0120C86EE00005A87E /* Assets.xcassets in Resources */,
-				05432AFF20C86EDF0005A87E /* Main.storyboard in Resources */,
+				05432B6020C883770005A87E /* SourceSansPro-Light.ttf in Resources */,
+				05432B6420C883770005A87E /* SourceSansPro-SemiboldItalic.ttf in Resources */,
+				05432B6220C883770005A87E /* SourceSansPro-Regular.ttf in Resources */,
+				05432B5E20C883770005A87E /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				05432B5D20C883770005A87E /* SourceSansPro-ExtraLight.ttf in Resources */,
+				05432B3420C8707E0005A87E /* Main.storyboard in Resources */,
+				05432B5920C883770005A87E /* SourceSansPro-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +386,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05432AFC20C86EDF0005A87E /* ViewController.swift in Sources */,
-				05432AFA20C86EDF0005A87E /* AppDelegate.swift in Sources */,
+				05432B3320C8707E0005A87E /* LogInViewController.swift in Sources */,
+				057C034A20C9918700669B2B /* HM_IndividualViewController.swift in Sources */,
+				05432B4C20C880CF0005A87E /* RC_CandidatesTableViewController.swift in Sources */,
+				05432B4320C8803F0005A87E /* RC_ListsTableViewController.swift in Sources */,
+				05432B4520C880640005A87E /* RC_StatusTableViewController.swift in Sources */,
+				057C034820C9917C00669B2B /* HM_CandidatesTableViewController.swift in Sources */,
+				057C034420C9914C00669B2B /* HM_StatusTableViewController.swift in Sources */,
+				05432B3B20C870AB0005A87E /* StructObjects.swift in Sources */,
+				052E3F2320C9B3120025AE3B /* HM_InboxTableViewController.swift in Sources */,
+				05432B3220C8707E0005A87E /* AppDelegate.swift in Sources */,
+				057C034220C9913C00669B2B /* HM_ListsTableViewController.swift in Sources */,
+				05432B4720C8806F0005A87E /* RC_SettingsTableViewController.swift in Sources */,
+				057C034620C9916F00669B2B /* HM_SettingsTableViewController.swift in Sources */,
+				05432B4920C8808D0005A87E /* RC_IndividualViewController.swift in Sources */,
+				05432B3920C870AB0005A87E /* StyleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +436,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05432AFD20C86EDF0005A87E /* Main.storyboard */ = {
+		05432B2E20C8707E0005A87E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05432AFE20C86EDF0005A87E /* Base */,
+				05432B2F20C8707E0005A87E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		05432B0220C86EE00005A87E /* LaunchScreen.storyboard */ = {
+		05432B3020C8707E0005A87E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05432B0320C86EE00005A87E /* Base */,
+				05432B3120C8707E0005A87E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -430,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8QVQM8CG8;
 				INFOPLIST_FILE = SmashMobile_v5/Info.plist;
@@ -439,6 +583,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SmashFly.SmashMobile-v5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmashMobile_v5/Both/SmashMobile_v5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8QVQM8CG8;
 				INFOPLIST_FILE = SmashMobile_v5/Info.plist;
@@ -457,6 +604,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SmashFly.SmashMobile-v5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmashMobile_v5/Both/SmashMobile_v5-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
