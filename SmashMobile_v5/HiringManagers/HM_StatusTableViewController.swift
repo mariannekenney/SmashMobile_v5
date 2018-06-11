@@ -29,7 +29,7 @@ class HM_StatusTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "Day To Day")
+        self.setTableStyle(title: "Day To Day")
         searchBar.setStyle()
     }
     

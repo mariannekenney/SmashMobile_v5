@@ -18,12 +18,12 @@ class HM_IndividualViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "(individual)")
+        self.setViewStyle(title: "Marianne Kenney")
         segment.setStyle(color: UIColor.MainColors.secondary, size: 18.0)
         openStatus.setStyle(size: 14.0)
         takeAction.setStyle(size: 14.0)
         viewResume.setStyle(size: 14.0)
-        viewText.setStyle(text: "I\nN\nF\nO\nR\nM\nA\nT\nI\nO\nN\n!!", size: 15.0)
+        viewText.setStyle(text: "Marianne Kenney (5/5)\n123.456.7890\nStonehill College\nJava, C, Swift\nInfo 1\nInfo 2\nInfo 3\nInfo 4\nInfo 5\nI\nN\nF\nO\nR\nM\nA\nT\nI\nO\nN\n!!", size: 15.0)
     }
     
     @IBAction func starPressed(_ sender: UIButton) {
@@ -35,7 +35,7 @@ class HM_IndividualViewController: UIViewController {
     }
     
     @IBAction func takeActionPressed(_ sender: Any) {
-        print("TakeAction")
+        self.actionSteps()
     }
     
     @IBAction func viewResumePressed(_ sender: Any) {

@@ -16,7 +16,7 @@ class RC_SettingsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "Settings")
+        self.setTableStyle(title: "Settings")
         addHM.setStyle(size: 18.0)
         pushSwitch.setStyle()
         pushLabel.setStyle(title: "Allow push notifications?", size: 17.0)

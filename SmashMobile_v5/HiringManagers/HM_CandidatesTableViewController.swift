@@ -27,7 +27,7 @@ class HM_CandidatesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "(list name)")
+        self.setTableStyle(title: "Software Engineer")
         searchBar.setStyle()
     }
     
@@ -56,7 +56,7 @@ class HM_CandidatesTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let yesAction = UIContextualAction(style: .normal, title:  "Yes", handler: { (ac: UIContextualAction, view: UIView, success:(Bool) -> Void) in
-            print("Yes")
+            self.actionSteps()
             self.setEditing(false, animated: true)
         })
         yesAction.title = "Yes"

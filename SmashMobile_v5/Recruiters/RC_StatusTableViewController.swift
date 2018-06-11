@@ -29,7 +29,7 @@ class RC_StatusTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "Status")
+        self.setTableStyle(title: "Status")
         searchBar.setStyle()
     }
     

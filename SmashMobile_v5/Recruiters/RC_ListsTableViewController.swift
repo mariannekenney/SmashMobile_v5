@@ -15,7 +15,7 @@ class RC_ListsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "Imported Lists")
+        self.setTableStyle(title: "Imported Lists")
         searchBar.setStyle()
         importNew.setStyle()
     }

@@ -240,7 +240,7 @@
                     <navigationItem key="navigationItem" id="Dqz-ja-ePy"/>
                     <connections>
                         <outlet property="searchBar" destination="azt-DE-uei" id="WSj-A4-00X"/>
-                        <segue destination="JIK-se-fhI" kind="presentation" identifier="listsToCandidates" id="B1J-Da-eha"/>
+                        <segue destination="JIK-se-fhI" kind="show" identifier="listsToCandidates" id="B1J-Da-eha"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l53-22-f8D" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -547,6 +547,6 @@
         <image name="status" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wYk-AZ-xDu"/>
+        <segue reference="uq9-F1-3gy"/>
     </inferredMetricsTieBreakers>
 </document>

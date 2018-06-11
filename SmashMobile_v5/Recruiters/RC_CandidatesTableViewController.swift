@@ -32,7 +32,7 @@ class RC_CandidatesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "(list name)")
+        self.setTableStyle(title: "Software Engineer")
         searchBar.setStyle()
     }
     
@@ -57,6 +57,7 @@ class RC_CandidatesTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.isSelected = false
         if (selectOn) {
             let cell = tableView.cellForRow(at: indexPath)
             if (cell?.accessoryType == .checkmark) {
@@ -87,6 +88,7 @@ class RC_CandidatesTableViewController: UITableViewController {
                 print("Cancel")
             }))
             self.present(alert, animated: true, completion: nil)
+            self.setEditing(false, animated: true)
         })
         infoAction.title = "Send"
         infoAction.backgroundColor = UIColor.MainColors.info
@@ -98,6 +100,7 @@ class RC_CandidatesTableViewController: UITableViewController {
             let totalRows = tableView.numberOfRows(inSection: 0)
             for row in 0..<totalRows {
                 tableView.cellForRow(at: IndexPath(row: row, section: 0))?.accessoryType = .disclosureIndicator
+                tableView.cellForRow(at: IndexPath(row: row, section: 0))?.isSelected = false
             }
             self.selectOn = false
             self.sortButton.title = "Sort"

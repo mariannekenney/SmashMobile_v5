@@ -14,7 +14,7 @@ class HM_ListsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "Lists")
+        self.setTableStyle(title: "Lists")
         searchBar.setStyle()
     }
     

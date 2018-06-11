@@ -25,7 +25,7 @@ class HM_InboxTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setStyle(title: "Inbox")
+        self.setTableStyle(title: "Inbox")
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -64,7 +64,7 @@ class HM_InboxTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let yesAction = UIContextualAction(style: .normal, title:  "Yes", handler: { (ac: UIContextualAction, view: UIView, success:(Bool) -> Void) in
-            print("Yes")
+            self.actionSteps()
             self.setEditing(false, animated: true)
         })
         yesAction.title = "Yes"
