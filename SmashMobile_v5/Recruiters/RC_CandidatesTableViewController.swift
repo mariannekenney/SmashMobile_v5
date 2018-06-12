@@ -34,6 +34,7 @@ class RC_CandidatesTableViewController: UITableViewController {
         super.viewDidLoad()
         self.setTableStyle(title: "Software Engineer")
         searchBar.setStyle()
+        searchBar.isHidden = true
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -60,10 +61,17 @@ class RC_CandidatesTableViewController: UITableViewController {
         tableView.cellForRow(at: indexPath)?.isSelected = false
         if (selectOn) {
             let cell = tableView.cellForRow(at: indexPath)
-            if (cell?.accessoryType == .checkmark) {
-                cell?.accessoryType = .disclosureIndicator
+            var circle: UIImageView
+            circle = UIImageView(frame:CGRect(x: 200, y: 75, width: 25, height: 25))
+            circle.image = UIImage(named:"circle.png")
+            var check: UIImageView
+            check = UIImageView(frame:CGRect(x: 200, y: 75, width: 25, height: 25))
+            check.image = UIImage(named:"check.png")
+            
+            if (cell?.accessoryView == check) {
+                cell?.accessoryView = circle
             } else {
-                cell?.accessoryType = .checkmark
+                cell?.accessoryView = check
             }
         } else {
             performSegue(withIdentifier: "candidatesToIndividual", sender: self)
@@ -95,6 +103,14 @@ class RC_CandidatesTableViewController: UITableViewController {
         return UISwipeActionsConfiguration(actions: [infoAction])
     }
     
+    override func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        if (searchBar.isHidden) {
+            searchBar.isHidden = false
+        } else {
+            searchBar.isHidden = true
+        }
+    }
+    
     @IBAction func backPressed(_ sender: Any) {
         if (selectOn) {
             let totalRows = tableView.numberOfRows(inSection: 0)
@@ -112,17 +128,23 @@ class RC_CandidatesTableViewController: UITableViewController {
     }
     
     @IBAction func selectPressed(_ sender: Any) {
-        if (selectOn) {
-            let totalRows = tableView.numberOfRows(inSection: 0)
-            for row in 0..<totalRows {
-                tableView.selectRow(at: IndexPath(row: row, section: 0), animated: true, scrollPosition: .none)
-            }
-        } else {
+        var accessory: UIImageView
+        accessory = UIImageView(frame:CGRect(x: 200, y: 75, width: 25, height: 25))
+        accessory.image = UIImage(named: "check.png")
+        if (!selectOn) {
+            print("Hello222")
             selectOn = true
             selectButton.title = "Select All"
             sortButton.title = "Send"
             backButton.title = "Cancel"
+            //accessory.image = UIImage(named:"circle.png")
         }
+        let totalRows = tableView.numberOfRows(inSection: 0)
+        for row in 0..<totalRows {
+            tableView.cellForRow(at: IndexPath(row: row, section: 0))?.accessoryView = accessory
+            print("setting")
+        }
+        print("done")
     }
     
     @IBAction func filterPressed(_ sender: Any) {

@@ -60,15 +60,8 @@
                             <outlet property="delegate" destination="eZi-em-hBP" id="PZi-bs-DyZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="MER-oh-X7X">
-                        <barButtonItem key="rightBarButtonItem" title="Import New" id="xSo-ck-tGG">
-                            <connections>
-                                <action selector="importNewPressed:" destination="eZi-em-hBP" id="ob4-Rb-kQY"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="MER-oh-X7X"/>
                     <connections>
-                        <outlet property="importNew" destination="xSo-ck-tGG" id="9zw-eA-DLz"/>
                         <outlet property="searchBar" destination="Abv-d0-gmj" id="lgN-P1-yHQ"/>
                         <segue destination="rCc-Ha-Hr7" kind="presentation" identifier="listsToCandidates" id="UKt-4v-ckR"/>
                     </connections>
@@ -494,6 +487,6 @@
         <image name="status" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1sg-iK-8wz"/>
+        <segue reference="cDd-0F-JY0"/>
     </inferredMetricsTieBreakers>
 </document>

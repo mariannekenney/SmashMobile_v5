@@ -61,10 +61,7 @@ class RC_SettingsTableViewController: UITableViewController {
     }
     
     @IBAction func addHMPressed(_ sender: Any) {
-        let alert = UIAlertController(title: nil, message: "Sort by", preferredStyle: .alert)
-        
-        
-        self.present(alert, animated: true, completion: nil)
+        print("AddHM")
     }
     
     @IBAction func pushSwitchPressed(_ sender: Any) {

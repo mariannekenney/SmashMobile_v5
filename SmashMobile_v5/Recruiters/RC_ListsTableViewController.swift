@@ -10,14 +10,20 @@ import UIKit
 
 class RC_ListsTableViewController: UITableViewController {
     
-    @IBOutlet weak var importNew: UIBarButtonItem!
     @IBOutlet weak var searchBar: UISearchBar!
+    
+    lazy var refresh: UIRefreshControl = {
+        let refresh = UIRefreshControl()
+        refresh.addTarget(self, action: #selector(handleRefresh(_:)), for: UIControlEvents.valueChanged)
+        refresh.tintColor = UIColor.MainColors.info
+        return refresh
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setTableStyle(title: "Imported Lists")
         searchBar.setStyle()
-        importNew.setStyle()
+        self.tableView.addSubview(self.refresh)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -44,7 +50,9 @@ class RC_ListsTableViewController: UITableViewController {
         }
     }
     
-    @IBAction func importNewPressed(_ sender: Any) {
-        print("ImportNew")
+    @objc func handleRefresh(_ refreshControl: UIRefreshControl) {
+        print("GettingLists")
+        self.tableView.reloadData()
+        refreshControl.endRefreshing()
     }
 }
